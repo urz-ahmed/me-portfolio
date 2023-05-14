@@ -21,10 +21,10 @@ export default [
 		workUrl: '#',
 	},
 	{
-		title: 'Google Clone',
+		title: 'To Do Lists',
 		imgUrl:
-			'https://cdn.pixabay.com/photo/2017/11/20/02/00/fantasy-2964231_960_720.jpg',
-		tech: ['React JS', 'Tailwind', 'REST API'],
+			'https://pixabay.com/images/id-570507/',
+		tech: ['HTML', 'CSS', 'JavaScript'],
 		workUrl: '#',
 	},
 	
