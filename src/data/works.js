@@ -23,7 +23,7 @@ export default [
 	{
 		title: 'To Do Lists',
 		imgUrl:
-			'https://pixabay.com/images/id-570507/',
+			'https://images.rawpixel.com/image_1000/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL25zMTgzMDgtaW1hZ2Uta3d2d245eTUuanBn.jpg',
 		tech: ['HTML', 'CSS', 'JavaScript'],
 		workUrl: '#',
 	},
