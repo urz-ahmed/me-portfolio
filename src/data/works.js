@@ -1,17 +1,24 @@
 export default [
 	{
-		title: 'Sales Stores',
-		imgUrl:
-			'https://raw.githubusercontent.com/pagsum/sales-stores/main/sales-stores.png',
-		tech: ['HTML', 'Tailwind CSS'],
-		workUrl: "https://amazing-raindrop.netlify.app/",
-	},
-	{
 		title: "Social Utopia",
 		imgUrl:
-			'https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_960_720.jpg',      
+			'https://raw.githubusercontent.com/urz-ahmed/social-utopia/master/screenshot.png',      
 		tech: ['React','Tailwind CSS', 'Vercel'],
 		workUrl: 'https://github.com/urz-ahmed/social-utopia',
+	},
+	{
+		title: 'SummarEdge',
+		imgUrl:
+			'https://raw.githubusercontent.com/urz-ahmed/SummarEdge/main/screenshot.png',
+		tech: ['ReactJS', 'Tailwind CSS', 'ReduxToolkit','ChatGPT4 Api'],
+		workUrl: "https://github.com/urz-ahmed/SummarEdge",
+	},
+	{
+		title: 'Krishi Saarthi [Hack4Bengal]',
+		imgUrl:
+			'https://raw.githubusercontent.com/urz-ahmed/AppUI-Full-APP/main/screenshot.png',
+		tech: ['React Native', 'Tailwind', 'Typescript','ExpressJS','MongoDB'],
+		workUrl: 'https://github.com/urz-ahmed/AppUI-Full-APP',
 	},
 	{
 		title: "Keep Record",
@@ -21,11 +28,11 @@ export default [
 		workUrl: 'https://github.com/urz-ahmed/keep-record',
 	},
 	{
-		title: 'To Do Lists',
+		title: 'Paint Webpage',
 		imgUrl:
-			'https://images.rawpixel.com/image_1000/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL25zMTgzMDgtaW1hZ2Uta3d2d245eTUuanBn.jpg',
+			'https://raw.githubusercontent.com/urz-ahmed/paintApp/main/screenshot.png',
 		tech: ['HTML', 'CSS', 'JavaScript'],
-		workUrl: 'https://github.com/urz-ahmed/to-do-list',
+		workUrl: 'https://github.com/urz-ahmed/paintApp',
 	},
 	
 ];

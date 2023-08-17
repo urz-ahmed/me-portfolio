@@ -29,8 +29,12 @@ const Skills = () => {
                     <p className='my-4 dark:text-slate-300'>JAVASCRIPT</p>
                 </div>
                 <div className='bg-slate-200 shadow-sm dark:bg-slate-800 shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={cplus} alt="c++ icon" />
+                    <p className='my-4 dark:text-slate-300'>C++</p>
+                </div>
+                <div className='bg-slate-200 shadow-sm dark:bg-slate-800 shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
-                    <p className='my-4 dark:text-slate-300'>REACT</p>
+                    <p className='my-4 dark:text-slate-300'>REACT (JS+Native)</p>
                 </div>
                 <div className='bg-slate-200 shadow-sm dark:bg-slate-800 shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
@@ -41,20 +45,8 @@ const Skills = () => {
                     <p className='my-4 dark:text-slate-300'>NODE JS</p>
                 </div>
                 <div className='bg-slate-200 shadow-sm dark:bg-slate-800 shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
-                    <p className='my-4 dark:text-slate-300'>MONGO DB</p>
-                </div>
-                <div className='bg-slate-200 shadow-sm dark:bg-slate-800 shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
-                    <p className='my-4 dark:text-slate-300'>GitHub</p>
-                </div>
-                <div className='bg-slate-200 shadow-sm dark:bg-slate-800 shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
                     <p className='my-4 dark:text-slate-300'>FIREBASE</p>
-                </div>
-                <div className='bg-slate-200 shadow-sm dark:bg-slate-800 shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={cplus} alt="c++ icon" />
-                    <p className='my-4 dark:text-slate-300'>C++</p>
                 </div>
             </div>
         </div>
