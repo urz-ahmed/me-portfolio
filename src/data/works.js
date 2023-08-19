@@ -21,10 +21,10 @@ export default [
 		workUrl: 'https://github.com/urz-ahmed/AppUI-Full-APP',
 	},
 	{
-		title: "Keep Record",
+		title: "To Do List",
 		imgUrl:
-			'https://cdn.pixabay.com/photo/2017/12/22/08/01/school-supplies-3033204_960_720.jpg',
-		tech: ['React JS', 'Tailwid CSS'],
+			'https://wallpaperaccess.com/full/1489343.jpg',
+		tech: ['HTML', 'Bootstrap','Javascript'],
 		workUrl: 'https://github.com/urz-ahmed/keep-record',
 	},
 	{
@@ -32,7 +32,7 @@ export default [
 		imgUrl:
 			'https://raw.githubusercontent.com/urz-ahmed/paintApp/main/screenshot.png',
 		tech: ['HTML', 'CSS', 'JavaScript'],
-		workUrl: 'https://github.com/urz-ahmed/paintApp',
+		workUrl: 'https://paintwebpage.netlify.app/',
 	},
 	
 ];

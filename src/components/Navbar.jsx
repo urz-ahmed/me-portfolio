@@ -6,6 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [theme, setTheme] = useState(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -25,6 +26,10 @@ const Navbar = () => {
 
   const themeSwitcher = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark');
+  };
+
+  const handleMobileMenuToggle = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
   };
 
   return (
@@ -54,11 +59,11 @@ const Navbar = () => {
               )}
             </button>
             <button
-              data-collapse-toggle="navbar-cta"
               type="button"
+              onClick={handleMobileMenuToggle}
               className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="navbar-cta"
-              aria-expanded="false"
+              aria-expanded={mobileMenuOpen ? 'true' : 'false'}
             >
               <svg
                 className="w-6 h-6"
@@ -76,7 +81,9 @@ const Navbar = () => {
             </button>
           </div>
           <div
-            className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            className={`items-center justify-between ${
+              mobileMenuOpen ? 'block' : 'hidden'
+            } w-full md:flex md:w-auto md:order-1`}
             id="navbar-cta"
           >
             <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
