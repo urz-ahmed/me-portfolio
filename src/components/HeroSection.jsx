@@ -14,7 +14,7 @@ function HeroSection() {
                 <div className="btns flex gap-3 justify-center py-3">
                   <Link to="works" spy={true} smooth={true} offset={50} duration={500} className='inline-block px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:text-md cursor-pointer'>See Works
                   </Link>
-                  <a href="https://drive.google.com/file/d/1XyY_5efzP5KsoomizGVOV_iqSVbRTuM_/view?usp=sharing" target='_blank' className='inline-block px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:text-md'>See Resume</a>
+                  <a href="https://drive.google.com/file/d/101KNGqnAoiQVf6wIoJUWH38Vec8_07Cy/view?usp=sharing" target='_blank' className='inline-block px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:text-md'>See Resume</a>
                 </div>
                 <div>
                   <ul className='flex gap-10 justify-center mt-4'>
