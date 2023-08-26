@@ -18,7 +18,7 @@ function HeroSection() {
                 </div>
                 <div>
                   <ul className='flex gap-10 justify-center mt-4'>
-                    <li className='text-3xl text-gray-500 dark:text-gray-200'><a target="_blank" href="https://github.com/pagsum"><FaGithubSquare/></a></li>
+                    <li className='text-3xl text-gray-500 dark:text-gray-200'><a target="_blank" href="https://github.com/urz-ahmed"><FaGithubSquare/></a></li>
                     <li className='text-3xl text-gray-500 dark:text-gray-200'><a target="_blank" href="https://www.linkedin.com/in/urooj-ahmad-73260422a/"><FaLinkedin/></a></li>
                     <li className='text-3xl text-gray-500 dark:text-gray-200'><a href="#" ><SiLeetcode/></a></li>
                     <li className='text-3xl text-gray-500 dark:text-gray-200'><a href="mailto:urjahmad@gmail.com"><FaEnvelope/></a></li>
