@@ -25,7 +25,7 @@ export default [
 		imgUrl:
 			'https://wallpaperaccess.com/full/1489343.jpg',
 		tech: ['HTML', 'Bootstrap','Javascript'],
-		workUrl: 'https://github.com/urz-ahmed/keep-record',
+		workUrl: 'https://github.com/urz-ahmed/to-do-list',
 	},
 	{
 		title: 'Paint Webpage',
